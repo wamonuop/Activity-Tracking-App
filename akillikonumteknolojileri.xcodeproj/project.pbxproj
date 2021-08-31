@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1617C356F856DDD1927A5FF9 /* Pods_akillikonumteknolojileri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9316554B2734AA7E35C4A984 /* Pods_akillikonumteknolojileri.framework */; };
+		28DE71E026D9A329009F75C6 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DE71DF26D9A329009F75C6 /* dataModel.swift */; };
+		28DE71E326D9C000009F75C6 /* DataShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DE71E226D9C000009F75C6 /* DataShowViewController.swift */; };
+		28DE71F226D9C14D009F75C6 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28DE71E726D9C14D009F75C6 /* Lato-Light.ttf */; };
+		28DE71F426D9C14D009F75C6 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28DE71E926D9C14D009F75C6 /* Lato-Regular.ttf */; };
+		28DE71F626D9C14D009F75C6 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28DE71EB26D9C14D009F75C6 /* Lato-Thin.ttf */; };
+		28DE71F726D9C14D009F75C6 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28DE71EC26D9C14D009F75C6 /* OFL.txt */; };
+		28DE71F826D9C14D009F75C6 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28DE71ED26D9C14D009F75C6 /* Lato-Black.ttf */; };
+		28DE71FA26D9C14D009F75C6 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28DE71EF26D9C14D009F75C6 /* Lato-Bold.ttf */; };
+		28DE720226D9C2EA009F75C6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DE720126D9C2EA009F75C6 /* TableViewCell.swift */; };
 		28FBA97F26D7CAD500392A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FBA97E26D7CAD500392A5A /* AppDelegate.swift */; };
 		28FBA98126D7CAD500392A5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FBA98026D7CAD500392A5A /* SceneDelegate.swift */; };
 		28FBA98326D7CAD500392A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FBA98226D7CAD500392A5A /* ViewController.swift */; };
@@ -17,6 +27,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AF3C59E7BF97AAA07D11E92 /* Pods-akillikonumteknolojileri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akillikonumteknolojileri.debug.xcconfig"; path = "Target Support Files/Pods-akillikonumteknolojileri/Pods-akillikonumteknolojileri.debug.xcconfig"; sourceTree = "<group>"; };
+		28DE71DF26D9A329009F75C6 /* dataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+		28DE71E226D9C000009F75C6 /* DataShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataShowViewController.swift; sourceTree = "<group>"; };
+		28DE71E726D9C14D009F75C6 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../../../../Downloads/Lato/Lato-Light.ttf"; sourceTree = "<group>"; };
+		28DE71E926D9C14D009F75C6 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../../../../Downloads/Lato/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		28DE71EB26D9C14D009F75C6 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Thin.ttf"; path = "../../../../Downloads/Lato/Lato-Thin.ttf"; sourceTree = "<group>"; };
+		28DE71EC26D9C14D009F75C6 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = ../../../../Downloads/Lato/OFL.txt; sourceTree = "<group>"; };
+		28DE71ED26D9C14D009F75C6 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "../../../../Downloads/Lato/Lato-Black.ttf"; sourceTree = "<group>"; };
+		28DE71EF26D9C14D009F75C6 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../../../../Downloads/Lato/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		28DE720126D9C2EA009F75C6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		28FBA97B26D7CAD500392A5A /* akillikonumteknolojileri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = akillikonumteknolojileri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FBA97E26D7CAD500392A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FBA98026D7CAD500392A5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +46,8 @@
 		28FBA98A26D7CAD600392A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28FBA98D26D7CAD600392A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28FBA98F26D7CAD600392A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590B9FCB996720A602A29483 /* Pods-akillikonumteknolojileri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akillikonumteknolojileri.release.xcconfig"; path = "Target Support Files/Pods-akillikonumteknolojileri/Pods-akillikonumteknolojileri.release.xcconfig"; sourceTree = "<group>"; };
+		9316554B2734AA7E35C4A984 /* Pods_akillikonumteknolojileri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_akillikonumteknolojileri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1617C356F856DDD1927A5FF9 /* Pods_akillikonumteknolojileri.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28663FE026DE7519009100F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28FBA98726D7CAD500392A5A /* akillikonumteknolojileri.xcdatamodeld */,
+				28DE71DF26D9A329009F75C6 /* dataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28663FE126DE7531009100F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28DE720126D9C2EA009F75C6 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28663FE226DE754D009100F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28DE71E226D9C000009F75C6 /* DataShowViewController.swift */,
+				28FBA98226D7CAD500392A5A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28DE71E526D9C139009F75C6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				28DE71ED26D9C14D009F75C6 /* Lato-Black.ttf */,
+				28DE71EF26D9C14D009F75C6 /* Lato-Bold.ttf */,
+				28DE71E726D9C14D009F75C6 /* Lato-Light.ttf */,
+				28DE71E926D9C14D009F75C6 /* Lato-Regular.ttf */,
+				28DE71EB26D9C14D009F75C6 /* Lato-Thin.ttf */,
+				28DE71EC26D9C14D009F75C6 /* OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		28FBA97226D7CAD400392A5A = {
 			isa = PBXGroup;
 			children = (
 				28FBA97D26D7CAD500392A5A /* akillikonumteknolojileri */,
 				28FBA97C26D7CAD500392A5A /* Products */,
+				9A03AF01799C1F5AD54513E4 /* Pods */,
+				9FDEB9BA546675E00423465D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +122,35 @@
 		28FBA97D26D7CAD500392A5A /* akillikonumteknolojileri */ = {
 			isa = PBXGroup;
 			children = (
+				28DE71E526D9C139009F75C6 /* Fonts */,
+				28663FE026DE7519009100F8 /* Model */,
+				28663FE126DE7531009100F8 /* View */,
+				28663FE226DE754D009100F8 /* Controller */,
 				28FBA97E26D7CAD500392A5A /* AppDelegate.swift */,
 				28FBA98026D7CAD500392A5A /* SceneDelegate.swift */,
-				28FBA98226D7CAD500392A5A /* ViewController.swift */,
-				28FBA98426D7CAD500392A5A /* Main.storyboard */,
 				28FBA98A26D7CAD600392A5A /* Assets.xcassets */,
+				28FBA98426D7CAD500392A5A /* Main.storyboard */,
 				28FBA98C26D7CAD600392A5A /* LaunchScreen.storyboard */,
 				28FBA98F26D7CAD600392A5A /* Info.plist */,
-				28FBA98726D7CAD500392A5A /* akillikonumteknolojileri.xcdatamodeld */,
 			);
 			path = akillikonumteknolojileri;
+			sourceTree = "<group>";
+		};
+		9A03AF01799C1F5AD54513E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AF3C59E7BF97AAA07D11E92 /* Pods-akillikonumteknolojileri.debug.xcconfig */,
+				590B9FCB996720A602A29483 /* Pods-akillikonumteknolojileri.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9FDEB9BA546675E00423465D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9316554B2734AA7E35C4A984 /* Pods_akillikonumteknolojileri.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28FBA99226D7CAD600392A5A /* Build configuration list for PBXNativeTarget "akillikonumteknolojileri" */;
 			buildPhases = (
+				D1C7D9B062BAC3E5031A6837 /* [CP] Check Pods Manifest.lock */,
 				28FBA97726D7CAD500392A5A /* Sources */,
 				28FBA97826D7CAD500392A5A /* Frameworks */,
 				28FBA97926D7CAD500392A5A /* Resources */,
+				AEF91D49A33D9E5561E63CBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,13 +212,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28DE71F726D9C14D009F75C6 /* OFL.txt in Resources */,
+				28DE71F626D9C14D009F75C6 /* Lato-Thin.ttf in Resources */,
+				28DE71F226D9C14D009F75C6 /* Lato-Light.ttf in Resources */,
+				28DE71FA26D9C14D009F75C6 /* Lato-Bold.ttf in Resources */,
 				28FBA98E26D7CAD600392A5A /* LaunchScreen.storyboard in Resources */,
+				28DE71F826D9C14D009F75C6 /* Lato-Black.ttf in Resources */,
 				28FBA98B26D7CAD600392A5A /* Assets.xcassets in Resources */,
+				28DE71F426D9C14D009F75C6 /* Lato-Regular.ttf in Resources */,
 				28FBA98626D7CAD500392A5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEF91D49A33D9E5561E63CBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akillikonumteknolojileri/Pods-akillikonumteknolojileri-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akillikonumteknolojileri/Pods-akillikonumteknolojileri-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-akillikonumteknolojileri/Pods-akillikonumteknolojileri-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C7D9B062BAC3E5031A6837 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-akillikonumteknolojileri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28FBA97726D7CAD500392A5A /* Sources */ = {
@@ -141,8 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28FBA98926D7CAD500392A5A /* akillikonumteknolojileri.xcdatamodeld in Sources */,
+				28DE71E326D9C000009F75C6 /* DataShowViewController.swift in Sources */,
 				28FBA98326D7CAD500392A5A /* ViewController.swift in Sources */,
 				28FBA97F26D7CAD500392A5A /* AppDelegate.swift in Sources */,
+				28DE71E026D9A329009F75C6 /* dataModel.swift in Sources */,
+				28DE720226D9C2EA009F75C6 /* TableViewCell.swift in Sources */,
 				28FBA98126D7CAD500392A5A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +423,14 @@
 		};
 		28FBA99326D7CAD600392A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF3C59E7BF97AAA07D11E92 /* Pods-akillikonumteknolojileri.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5VBHDRG354;
 				INFOPLIST_FILE = akillikonumteknolojileri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +444,14 @@
 		};
 		28FBA99426D7CAD600392A5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590B9FCB996720A602A29483 /* Pods-akillikonumteknolojileri.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5VBHDRG354;
 				INFOPLIST_FILE = akillikonumteknolojileri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
