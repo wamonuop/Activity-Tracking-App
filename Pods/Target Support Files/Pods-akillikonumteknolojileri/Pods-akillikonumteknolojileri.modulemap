@@ -1,0 +1,6 @@
+framework module Pods_akillikonumteknolojileri {
+  umbrella header "Pods-akillikonumteknolojileri-umbrella.h"
+
+  export *
+  module * { export * }
+}
