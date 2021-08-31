@@ -430,7 +430,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITableViewDe
             
             if dataArray[indexPath.row].activityType == "Other"{
                 cell.rightImageView.image = UIImage(named: "others")
-            } else if dataArray[indexPath.row].activityType == "Auto"{
+            } else if dataArray[indexPath.row].activityType == "Automobile"{
                 cell.rightImageView.image = UIImage(named: "car")
             }
             
